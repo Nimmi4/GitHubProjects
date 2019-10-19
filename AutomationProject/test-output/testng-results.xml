@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11308" started-at="2019-10-08T20:52:00Z" finished-at="2019-10-08T20:52:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11308" started-at="2019-10-08T20:52:00Z" finished-at="2019-10-08T20:52:11Z">
+      <class name="TestScript.Spicejetmultiplebox">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestScript.Spicejetmultiplebox@13805618]" name="openBrowser" is-config="true" duration-ms="9427" started-at="2019-10-08T20:51:50Z" finished-at="2019-10-08T20:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="multiplecheckbox()[pri:0, instance:TestScript.Spicejetmultiplebox@13805618]" name="multiplecheckbox" duration-ms="11272" started-at="2019-10-08T20:52:00Z" finished-at="2019-10-08T20:52:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplecheckbox -->
+      </class> <!-- TestScript.Spicejetmultiplebox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

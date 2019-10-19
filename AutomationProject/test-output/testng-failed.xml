@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sanitytest]">
+  <listeners>
+    <listener class-name="report.Listners"/>
+  </listeners>
+  <test thread-count="5" name="sanitytestname(failed)">
+    <classes>
+      <class name="TestScript.DemoGuru999">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testcase"/>
+        </methods>
+      </class> <!-- TestScript.DemoGuru999 -->
+    </classes>
+  </test> <!-- sanitytestname(failed) -->
+</suite> <!-- Failed suite [sanitytest] -->

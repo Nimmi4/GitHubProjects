@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="sanitytest">
+<listeners>
+
+<listener class-name="report.Listners"/>
+</listeners>
+<test name= "sanitytestname">
+<classes>
+<class name= "TestScript.DemoGuru999"/>
+<class name= "TestScript.Draganddrop"/>
+<class name ="TestScript.BankOfCanada"/>
+<class name ="TestScript.Cheapflight"/>
+<class name="TestScript.Contextclick"/>
+<class name ="TestScript.DemoGuru99"/>
+<class name="TestScript.Doubleclick"/>
+<class name ="TestScript.FirstScript"/>
+<class name="TestScript.Internet"/>
+</classes>
+</test>
+</suite>
